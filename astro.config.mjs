@@ -14,5 +14,9 @@ export default defineConfig({
     ssr: {
       external: ["svgo"]
     }
+  },
+  jsx: {
+    factory: "React.createElement",
+    fragment: "React.Fragment"
   }
 });

@@ -5,7 +5,6 @@ import Header from "~/components/header.astro";
 import TwentyTwo from "~/components/TwentyTwo.astro";
 import TwentyThree from "~/components/TwentyThree.astro";
 import Splash from "~/components/splash.astro";
-import Sample from "~/components/Sample";
 import "~/styles/index.css";
 
 const { generator, site } = Astro;
@@ -19,6 +18,7 @@ const description =
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width" />
     <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/flowbite/2.3.0/flowbite.min.css" rel="stylesheet" />
 
     <title>hbd rasha</title>
 
@@ -53,10 +53,12 @@ const description =
   >
     <Header />
     <Splash />
-    <div class="space-y-24 px-8 py-32">
+    <div class="space-y-24 px-16 md:px-48 py-32">
       <TwentyTwo />
       <TwentyThree />
     </div>
     <Footer />
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/flowbite/2.3.0/flowbite.min.js"></script>
   </body>
 </html>

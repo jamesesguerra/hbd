@@ -2,16 +2,19 @@
 import ContentSection from "~/components/content-section.astro";
 import Motion from "~/reactComponents/23/Motion";
 import Intro from "~/reactComponents/23/Intro";
-import DateForm from "~/reactComponents/23/DateForm";
 import MovieCarousel from "~/reactComponents/23/MovieCarousel";
+import MovieTimeline from "~/reactComponents/23/MovieTimeline";
+import DateChatBubble from "~/reactComponents/23/DateChatBubble";
 ---
 
 <ContentSection title="2024" id="2024">
   <Fragment slot="lead">
     <div>
         <Intro client:load />
-        <DateForm client:load />
-        <MovieCarousel client:load />
+        <MovieTimeline client:load />
+        <br />
+        <DateChatBubble client:load />
+        <!-- <MovieCarousel client:load /> -->
         <!-- <Motion client:load /> -->
     </div>
   </Fragment>

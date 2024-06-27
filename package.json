@@ -29,6 +29,7 @@
     "@fontsource-variable/inter": "^5.0.3",
     "@types/react": "^18.3.2",
     "@types/react-dom": "^18.3.0",
+    "axios": "^1.7.2",
     "framer-motion": "^11.2.3",
     "micromodal": "^0.4.10",
     "react": "^18.3.1",

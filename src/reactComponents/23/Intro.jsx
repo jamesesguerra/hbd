@@ -6,6 +6,7 @@ const Intro = () => {
 
   return (
     <div>
+        <h2 class="text-3xl font-bold mb-3">ur lebron year</h2>
         <p>happy 23rd birthday mahal :) Lorem ipsum dolor sit amet consectetur adipisicing elit. Error adipisci hic mollitia consectetur officia, veniam rem qui reprehenderit vitae cupiditate voluptas corrupti quae cum atque magni natus sunt. Quis, tempore.
         Doloremque cupiditate unde minima rerum, ut consectetur molestias magnam corrupti fugit excepturi. Ducimus sint, pariatur recusandae at magni, accusamus quis eum nostrum unde, itaque id maiores? Tenetur itaque esse odit!
         Natus eius commodi asperiores, aperiam eos tempora ipsum itaque repudiandae amet a. Perspiciatis vitae aliquam velit dolorem, commodi totam, voluptatem praesentium at repellendus voluptate omnis nisi ipsa?

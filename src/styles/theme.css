@@ -1,7 +1,9 @@
 [data-theme="light"] {
   --color-primary: theme("colors.emerald.500");
   --color-secondary: theme("colors.emerald.400");
+  --color-inverted-primary: theme("colors.teal.950");
   --color-text: theme("colors.gray.900");
+  --color-inverted-text: theme("colors.gray.50");
   --color-text-offset: theme("colors.gray.600");
   --color-background: theme("colors.gray.50");
   --color-background-offset: theme("colors.gray.100");
@@ -11,7 +13,9 @@
 [data-theme="dark"] {
   --color-primary: theme("colors.emerald.500");
   --color-secondary: theme("colors.emerald.900");
+  --color-inverted-primary: theme("colors.gray.200");
   --color-text: theme("colors.gray.50");
+  --color-inverted-text: theme("colors.gray.900");
   --color-text-offset: theme("colors.gray.400");
   --color-background: #122620;
   --color-background-offset: theme("colors.gray.800");

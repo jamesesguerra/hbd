@@ -2,7 +2,6 @@
 import ContentSection from "~/components/content-section.astro";
 import Motion from "~/reactComponents/23/Motion";
 import Intro from "~/reactComponents/23/Intro";
-import MovieCarousel from "~/reactComponents/23/MovieCarousel";
 import MovieTimeline from "~/reactComponents/23/MovieTimeline";
 import DateChatBubble from "~/reactComponents/23/DateChatBubble";
 import BestGf from "~/reactComponents/23/BestGf";
@@ -16,7 +15,7 @@ import BestGf from "~/reactComponents/23/BestGf";
         <br />
         <DateChatBubble client:load />
         <br />
-        <BestGf />
+        <BestGf client:load />
         <!-- <MovieCarousel client:load /> -->
         <!-- <Motion client:load /> -->
     </div>

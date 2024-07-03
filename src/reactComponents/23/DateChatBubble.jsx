@@ -14,7 +14,7 @@ const DateChatBubble = () => {
   return (
     <div class="mb-10">
          <h2 class="text-3xl font-bold mb-3">our spoiled date</h2>
-         <p class="mb-10">I like to think of where we were in our relationship whenever we’d watch movies together. Spending time with you every night is special / memorable, why we got close agad</p>
+         <p class="mb-10">i alw wana plan our dates myself but i wanted to ask u pa ren here to be extra and also so that i can ask u what wanna do for your bday in a creative way i guess😀</p>
 
         <div class="flex items-start gap-2.5">
             <img class="w-12 h-12 rounded-full object-cover" src={avatar.src} alt="My avatar" />
@@ -25,7 +25,7 @@ const DateChatBubble = () => {
                     <span class="text-sm font-semibold text-gray-900 dark:text-white">bear</span>
                     <span class="text-sm font-normal text-gray-500 dark:text-gray-400">{timeString}</span>
                 </div>
-                <p class="text-sm font-normal py-2.5 text-gray-900 dark:text-white">hi baby, can i take u out on ur bday </p>
+                <p class="text-sm font-normal py-2.5 text-gray-900 dark:text-white">hi baby, can i take u out on ur bday? jus click d 3 dots on d ryt w ur ans😀</p>
                 <span class="text-sm font-normal text-gray-500 dark:text-gray-400">Delivered</span>
             </div>
             {!showReply && (
@@ -66,7 +66,7 @@ const DateChatBubble = () => {
                         <span class="text-sm font-semibold text-gray-900 dark:text-white">bear</span>
                         <span class="text-sm font-normal text-gray-500 dark:text-gray-400">{timeString}</span>
                     </div>
-                    <p class="text-sm font-normal py-2.5 text-gray-900 dark:text-white">yay, see u baby</p>
+                    <p class="text-sm font-normal py-2.5 text-gray-900 dark:text-white">yay, see u baby, i love u</p>
                     <span class="text-sm font-normal text-gray-500 dark:text-gray-400">Delivered</span>
                 </div>
             </div>

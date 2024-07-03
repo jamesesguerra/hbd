@@ -41,7 +41,7 @@ const MovieTimeline = () => {
         class="mb-10"
     >
         <h2 class="text-3xl font-bold mb-3">my past yr with u in movies</h2>
-        <p class="mb-10">I like to think of where we were in our relationship whenever we’d watch movies together. Spending time with you every night is special / memorable, why we got close agad</p>
+        <p class="mb-10">i like to think of where we are in our relationship whenever we’d watch movies together. spending time with you every night is special and always memorable, and i think it's one of the reasons why we got close agad. watching with you at night is what i will always look forward to at the end of every day</p>
         {movieMoments.map(moment => (
             <div
                 class="p-5 mb-4 border border-gray-100 rounded-lg bg-gray-5 dark:border-gray-700"

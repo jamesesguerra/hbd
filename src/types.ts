@@ -26,3 +26,10 @@ export interface ShowcaseSite {
   image: ImageMetadata;
   url: string;
 }
+
+export interface DateRequest {
+  mall: string;
+  movie: string;
+  restaurant: string;
+  request: string;
+}

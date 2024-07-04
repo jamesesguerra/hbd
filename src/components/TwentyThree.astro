@@ -1,0 +1,24 @@
+---
+import ContentSection from "~/components/content-section.astro";
+import Motion from "~/reactComponents/23/Motion";
+import Intro from "~/reactComponents/23/Intro";
+import MovieTimeline from "~/reactComponents/23/MovieTimeline";
+import DateChatBubble from "~/reactComponents/23/DateChatBubble";
+import BestGf from "~/reactComponents/23/BestGf";
+---
+
+<ContentSection title="2024" id="2024">
+  <Fragment slot="lead">
+    <div>
+        <Intro client:load />
+        <MovieTimeline client:load />
+        <br />
+        <DateChatBubble client:load />
+        <br />
+        <BestGf client:load />
+        <!-- <MovieCarousel client:load /> -->
+        <!-- <Motion client:load /> -->
+    </div>
+  </Fragment>
+
+</ContentSection>

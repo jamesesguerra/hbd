@@ -91,7 +91,7 @@ const movieMoments = [
         movies: [
             {
                 title: "inside out 2",
-                message: "ff to june, inside out 2 is the first movie we watched together with your fam. i really liked going to sm masinag for the first time"
+                message: "ff to june, inside out 2 is the first movie we watched together with your fam. i really liked going to sm masinag for the first time for the first time and being out with you and your relatives. i feel really at home around them and ill always be grateful being invited"
             }
         ]
     }

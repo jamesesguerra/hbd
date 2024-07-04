@@ -26,7 +26,7 @@ const movieMoments = [
         movies: [
             {
                 title: "as above so below",
-                message: "things really changed in september when we watched as above so below since this is when  we started calling and watching almost every night. i really enjoyed watching bad movies like a house on the bayou with you cos we'd laugh together even more while watching. i really fell in love with your laugh and it's something i'll never get tired of hearing"
+                message: "things really changed in september when we watched as above so below since this is when we started calling and watching almost every night, and also started calling each other baby. i really enjoyed watching bad movies like a house on the bayou with you cos we'd laugh together even more while watching. i really fell in love with your laugh and it's something i'll never get tired of hearing"
             },
             {
                 title: "he's just not that into you",

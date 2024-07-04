@@ -13,7 +13,7 @@ const reasons = [
     },
     {
         number: "four",
-        reason: "you give the best gifts. you’re good at paying attention to what i want/need, and i always love and appreciate your minecraft-themed gifts and the ones that are for us as a couple or show that you're my gf. i really appreciate that one of the reasons you still wanna work even though you don't like your job is to give me gifts"
+        reason: "you give the best gifts. you’re good at paying attention to what i want/need, and i always love and appreciate your minecraft-themed gifts and the ones that are for us as a couple or show that you're my gf. i really appreciate that one of the reasons you still wanna work even though you don't like your job is to give me gifts. you'll always be the sweetest"
     },
     {
         number: "five",
@@ -69,7 +69,7 @@ const reasons = [
     },
     {
         number: "eighteen",
-        reason: "you're the prettiest, hottest, and cutest gf. no one else will even compare to how pretty you are and how nice your body is. i really fell in love with your personality, but your looks just add so much more. i still think your face is unreal til now and i'll always feel like the luckiest guy na i have someone who's looks like you. i know i won't ever have any problem showing you off / introducing you to other people"
+        reason: "you're the prettiest, hottest, and cutest gf. no one else will even compare to how pretty you are and how nice your body is. i really fell in love with your personality, but your looks just add so much more. i still think your face is unreal til now and i'll always feel like the luckiest guy na i have someone who looks like you. i know i won't ever have any problem showing you off / introducing you to other people"
     },
     {
         number: "nineteen",

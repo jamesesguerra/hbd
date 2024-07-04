@@ -1,8 +1,7 @@
 const movies = [
-    "Exorcism",
-    "Furiosa",
-    "Bad Boys: Ride or Die",
-    "A Quiet Place: Day One"
+    "A Quiet Place: Day One",
+    "Horizon: An American Saga",
+    "Bob Marley: One Love"
 ];
 
 export default movies;

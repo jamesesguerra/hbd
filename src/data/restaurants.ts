@@ -1,7 +1,8 @@
 const restaurants = [
     "Yabu",
-    "other",
-    "others"
+    "Cibo",
+    "Single Origin",
+    "Other (just lmk in the requests)"
 ];
 
 export default restaurants;

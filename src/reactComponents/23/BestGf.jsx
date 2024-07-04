@@ -5,7 +5,7 @@ const BestGf = () => {
   return (
     <div>
         <h2 class="text-3xl font-bold mb-3">23 reasons why you're the best gf</h2>
-        <p class="mb-10">I like to think of where we were in our relationship whenever we’d watch movies together. Spending time with you every night is special / memorable, why we got close agad</p>
+        <p class="">these aren't the only reasons why i think you're the best gf, i could go on😀 i just wanted to use the #23 as a theme kinda</p>
 
         <div id="accordion-flush" data-accordion="collapse" data-active-classes="text-emerald-400" data-inactive-classes="text-gray-500 dark:text-gray-400">
             {reasons.map((r, index) => (

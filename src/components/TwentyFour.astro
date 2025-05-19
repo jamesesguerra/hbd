@@ -1,0 +1,15 @@
+---
+import ContentSection from "~/components/content-section.astro";
+import Intro from "~/reactComponents/23/Intro";
+import Masonry from "~/reactComponents/24/Masonry";
+---
+<ContentSection title="2025" id="2025">
+    <Fragment slot="lead">
+      <div>
+          <Intro client:load />
+
+          <h2 class="text-3xl font-bold mb-3">click when...</h2>
+          <Masonry client:load />
+      </div>
+    </Fragment>
+</ContentSection>

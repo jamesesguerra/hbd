@@ -6,7 +6,7 @@ const Intro = () => {
 
   return (
     <div>
-        <h2 class="text-3xl font-bold mb-3">ur lebron year</h2>
+        <h2 class="text-3xl font-bold mb-3">ur kobe year</h2>
         <p>happy 23rd birthday mahal :) i'm really happy i get to add more stuff here. i can't believe i couldn't even put much here last year considering how we are now. i couldn't even call you baby yet😀 we've come a long way and it really feels like you've been my gf for forever</p>
 
         <br />

@@ -35,13 +35,22 @@ const posterDictionary = {
 };
 
 const MovieTimeline = () => {
+
+    const handleClick = async () => {
+        const confetti = (await import('canvas-confetti')).default;
+  confetti({
+    particleCount: 100,
+    spread: 70,
+    origin: { y: 0.6 },
+  });
+    }
     
   return (
     <div
         class="mb-10"
     >
         <h2 class="text-3xl font-bold mb-3">my past yr with u in movies</h2>
-        <p class="mb-10">i like to think of where we are in our relationship whenever we’d watch movies together. spending time with you every night is special and always memorable, and i think it's one of the reasons why we got close agad. watching with you at night is what i will always look forward to at the end of every day</p>
+        <p class="mb-10">i like to think of where we are in our relationship whenever we’d watch movies together. spending  <span onClick={handleClick} data-modal-target="clue-1" data-modal-toggle="clue-1">time</span> with you every night is special and always memorable, and i think it's one of the reasons why we got close agad. watching with you at night is what i will always look forward to at the end of every day</p>
         {movieMoments.map(moment => (
             <div
                 class="p-5 mb-4 border border-gray-100 rounded-lg bg-gray-5 dark:border-gray-700"

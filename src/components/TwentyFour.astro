@@ -2,6 +2,7 @@
 import ContentSection from "~/components/content-section.astro";
 import Intro from "~/reactComponents/23/Intro";
 import Masonry from "~/reactComponents/24/Masonry";
+import ScavengerHunt from '~/reactComponents/24/ScavengerHunt';
 ---
 <ContentSection title="2025" id="2025">
     <Fragment slot="lead">
@@ -10,6 +11,8 @@ import Masonry from "~/reactComponents/24/Masonry";
 
           <h2 class="text-3xl font-bold mb-3">click when...</h2>
           <Masonry client:load />
+
+          <ScavengerHunt client:load />
       </div>
     </Fragment>
 </ContentSection>

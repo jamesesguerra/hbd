@@ -10,3 +10,7 @@ a,
   @apply bg-clip-text text-transparent;
   @apply bg-gradient-to-br from-emerald-100 via-emerald-500 to-emerald-950;
 }
+
+.font-chewy {
+  font-family: 'Chewy', cursive;
+}

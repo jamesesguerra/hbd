@@ -3,6 +3,7 @@ import { useState } from "react";
 import "../..//styles/styles.css";
 import avatar from "../../assets/avatar.jpg";
 import DateFormModal from "./DateFormModal";
+import { fireConfetti } from "~/helpers/confetti-service";
 
 
 const DateChatBubble = () => {
@@ -22,7 +23,12 @@ const DateChatBubble = () => {
                 class="flex flex-col w-full max-w-[480px] leading-1.5 p-4 border-gray-20 rounded-e-xl rounded-es-x bg-teal-950"
             >
                 <div class="flex items-center space-x-2 rtl:space-x-reverse">
-                    <span class="text-sm font-semibold text-gray-900 dark:text-white">bear</span>
+                    <span
+                        class="text-sm font-semibold text-gray-900 dark:text-white"
+                        onClick={fireConfetti} data-modal-target="clue-3" data-modal-toggle="clue-3"
+                    >
+                        bear
+                    </span>
                     <span class="text-sm font-normal text-gray-500 dark:text-gray-400">{timeString}</span>
                 </div>
                 <p class="text-sm font-normal py-2.5 text-gray-900 dark:text-white">hi baby, can i take u out on ur bday? jus click d 3 dots on d ryt w ur ans😀</p>

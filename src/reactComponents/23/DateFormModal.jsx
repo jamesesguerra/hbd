@@ -5,6 +5,7 @@ import movies from "~/data/movies";
 import malls from "~/data/malls";
 import restaurants from "~/data/restaurants";
 import emailService from "~/services/emailService";
+import { fireConfetti } from "~/helpers/confetti-service";
 
 
 const DateFormModal = ({ setShowReply }) => {
@@ -38,7 +39,14 @@ const DateFormModal = ({ setShowReply }) => {
         const targetId = e.target.id;
 
         if (targetId === "mall") {
+            fireConfetti();
             setMall(e.target.value);
+            if (e.target.value === 'Greenhills') {
+                document.getElementById('crud-modal').classList.add('hidden');
+                document.querySelector('[modal-backdrop]').classList.add('hidden');
+                document.querySelector('body').classList.remove('overflow-hidden');
+                setMall("-- pick a mall --");
+            }
         } else if (targetId === "movie") {
             setMovie(e.target.value);
         } else if (targetId === "restaurant") {
@@ -74,7 +82,7 @@ const DateFormModal = ({ setShowReply }) => {
                                 id="mall"
                                 class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-primary-500 focus:border-primary-500 block w-full p-2.5 dark:bg-gray-400 dark:border-gray-500 dark:placeholder-gray-400  dark:focus:ring-primary-500 dark:focus:border-primary-500">
                                 <option value="-- pick a mall --" disabled>-- pick a mall --</option>
-                                {mallItems}
+                                    {mallItems}
                             </select>
                         </div>
                         <div class="col-span-2">

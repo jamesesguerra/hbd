@@ -1,54 +1,90 @@
+// sad
+// happy
+// tired
+// 
+// weirdly awake at __
+// need reassurance
+// soft
+// stressed
+// petty
+// miss me
+// cant wait to get married
+// we're arguing
+// hungry
+
 const messages: any[] = [
     {
         imageUrl: 'https://flowbite.s3.amazonaws.com/docs/gallery/masonry/image.jpg',
-        message: 'Some hidden text 👋'
+        emotion: 'ure feeling nostalgic',
+        message: 'nostalgic',
+        pokemon: 'cubone'
     },
     {
         imageUrl: 'https://flowbite.s3.amazonaws.com/docs/gallery/masonry/image-1.jpg',
-        message: 'Another hidden text'
+        emotion: 'u wanna know how happy u make me',
+        message: 'Another hidden text',
+        pokemon: 'kyogre2'
     },
     {
         imageUrl: 'https://flowbite.s3.amazonaws.com/docs/gallery/masonry/image-2.jpg',
-        message: 'Another another hidden text'
+        emotion: 'u feel like u cant wait for our wedding',
+        message: 'cant wait for our wedding',
+        pokemon: 'oshawott'
     },
 
     {
         imageUrl: 'https://flowbite.s3.amazonaws.com/docs/gallery/masonry/image-3.jpg',
-        message: 'te'
+        emotion: 'u had a bad day',
+        message: 'stressed',
+        pokemon: 'psyduck'
     },
     {
         imageUrl: 'https://flowbite.s3.amazonaws.com/docs/gallery/masonry/image-4.jpg',
-        message: 'te'
+        emotion: 'ure mad',
+        message: 'mad',
+        pokemon: 'flareon'
     },
     {
         imageUrl: 'https://flowbite.s3.amazonaws.com/docs/gallery/masonry/image-5.jpg',
-        message: 'test'
+        emotion: 'we\'re arguing',
+        message: 'arguing',
+        pokemon: 'maushold'
     },
-
     {
         imageUrl: 'https://flowbite.s3.amazonaws.com/docs/gallery/masonry/image-6.jpg',
-        message: 'test'
+        emotion: 'ure feeling soft',
+        message: 'soft',
+        pokemon: 'mew'
     },
     {
         imageUrl: 'https://flowbite.s3.amazonaws.com/docs/gallery/masonry/image-7.jpg',
-        message: 'tester'
+        emotion: 'ure hungry',
+        message: 'hungry',
+        pokemon: 'munchlax'
     },
     {
         imageUrl: 'https://flowbite.s3.amazonaws.com/docs/gallery/masonry/image-8.jpg',
-        message: 'tester'
+        emotion: 'u need reassurance',
+        message: 'reassurance',
+        pokemon: 'piplup'
     },
-
     {
         imageUrl: 'https://flowbite.s3.amazonaws.com/docs/gallery/masonry/image-9.jpg',
-        message: 'tester'
+        emotion: 'u cant sleep',
+        message: 'you cant sleep',
+        pokemon: 'jiggly'
     },
     {
         imageUrl: 'https://flowbite.s3.amazonaws.com/docs/gallery/masonry/image-10.jpg',
-        message: 'tester'
+        emotion: 'u miss me',
+        message: 'you miss me',
+        pokemon: 'kyogre'
     },
     {
         imageUrl: 'https://flowbite.s3.amazonaws.com/docs/gallery/masonry/image-11.jpg',
-        message: 'tester'
+        emotion: 'u need motivation at work (sorry🥲)',
+        message: 'need motivation',
+        pokemon: 'squirtle'
     },
     
 ];

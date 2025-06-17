@@ -16,6 +16,7 @@ import boyAndTheHeronPoster from "../../assets/boy-and-the-heron-poster.jpeg";
 import insideOutTwoPoster from "../../assets/inside-out-poster.png";
 
 import movieMoments from "~/data/movieMoments";
+import { fireConfetti } from "~/helpers/confetti-service";
 
 const posterDictionary = {
     "nobody": nobodyPoster,
@@ -35,22 +36,12 @@ const posterDictionary = {
 };
 
 const MovieTimeline = () => {
-
-    const handleClick = async () => {
-        const confetti = (await import('canvas-confetti')).default;
-  confetti({
-    particleCount: 100,
-    spread: 70,
-    origin: { y: 0.6 },
-  });
-    }
-    
   return (
     <div
         class="mb-10"
     >
         <h2 class="text-3xl font-bold mb-3">my past yr with u in movies</h2>
-        <p class="mb-10">i like to think of where we are in our relationship whenever we’d watch movies together. spending  <span onClick={handleClick} data-modal-target="clue-1" data-modal-toggle="clue-1">time</span> with you every night is special and always memorable, and i think it's one of the reasons why we got close agad. watching with you at night is what i will always look forward to at the end of every day</p>
+        <p class="mb-10">i like to think of where we are in our relationship whenever we’d watch movies together. spending time with you every night is special and always memorable, and i think it's one of the reasons why we got close agad. watching with you at night is what i will always look forward to at the end of every day</p>
         {movieMoments.map(moment => (
             <div
                 class="p-5 mb-4 border border-gray-100 rounded-lg bg-gray-5 dark:border-gray-700"
@@ -65,11 +56,20 @@ const MovieTimeline = () => {
                     {moment.movies.map(movie => (
                         <li>
                             <div class="items-start block px-3 py-7 sm:flex">
-                                <img
-                                    class="mb-3 sm:mb-0 me-5 object-cover"
-                                    src={posterDictionary[movie.title].src} alt={`${movie.title} poster`}
-                                    style={{ width: "64px !important" }}
-                                />
+                                {movie.title === 'the hunger games' ? 
+                                    <img
+                                        class="mb-3 sm:mb-0 me-5 object-cover"
+                                        src={posterDictionary[movie.title].src} alt={`${movie.title} poster`}
+                                        style={{ width: "64px !important" }}
+                                        onClick={fireConfetti} data-modal-target="clue-1" data-modal-toggle="clue-1"
+                                    />
+                                    :
+                                     <img
+                                        class="mb-3 sm:mb-0 me-5 object-cover"
+                                        src={posterDictionary[movie.title].src} alt={`${movie.title} poster`}
+                                        style={{ width: "64px !important" }}
+                                    />
+                                }
                                 <div>
                                     <div class="font-bold">{movie.title}</div>
                                     <div class="text-sm font-normal">{movie.message}</div>

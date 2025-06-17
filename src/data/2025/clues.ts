@@ -1,8 +1,8 @@
 const clues = [
-    "I’m always running, but I never move. You measure me, but I don’t grow. What am I?",
-    "You see me once in a minute, twice in a moment, but never in a thousand years. What am I?",
-    "Forward I am heavy, but backward I am not. What am I?",
-    "I’m not alive, but I grow. I don’t have lungs, but I need air. I don’t have a mouth, but water kills me. What am I?"
+    "No feet, no eyes, yet I can seek. The hidden word, the line you speak. In forests made of glyph and line. Invoke my name — the lost is mine.",
+    "I wake with hunger, fierce and wide. From months of stillness tucked inside. My belly leads where I may roam. But every winter calls me home.",
+    "Not bound by time, still in the race. He walks with ghosts yet sets the pace. Some count the rings, some count the years — But history knows what greatness hears.",
+    "Bargains whisper, sellers grin. Old and new all packed within. From pearls to screens, I hold them all— A city’s market in a mall."
 ];
 
 export default clues;

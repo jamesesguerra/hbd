@@ -1,17 +1,3 @@
-// sad
-// happy
-// tired
-// 
-// weirdly awake at __
-// need reassurance
-// soft
-// stressed
-// petty
-// miss me
-// cant wait to get married
-// we're arguing
-// hungry
-
 const messages: any[] = [
     {
         imageUrl: 'https://flowbite.s3.amazonaws.com/docs/gallery/masonry/image.jpg',

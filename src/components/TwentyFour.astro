@@ -1,6 +1,7 @@
 ---
 import ContentSection from "~/components/content-section.astro";
 import Intro from "~/reactComponents/23/Intro";
+import PokemonEventPics from "~/reactComponents/24/PokemonEventPics";
 import Masonry from "~/reactComponents/24/Masonry";
 import ScavengerHunt from '~/reactComponents/24/ScavengerHunt';
 ---
@@ -13,6 +14,9 @@ import ScavengerHunt from '~/reactComponents/24/ScavengerHunt';
           <Masonry client:load />
 
           <ScavengerHunt client:load />
+
+          <h2 class="text-3xl font-bold mt-20 mb-5">our pokemon event pics</h2>
+          <PokemonEventPics client:load />
       </div>
     </Fragment>
 </ContentSection>

@@ -38,41 +38,41 @@ const posterDictionary = {
 const MovieTimeline = () => {
   return (
     <div
-        class="mb-10"
+        className="mb-10"
     >
-        <h2 class="text-3xl font-bold mb-3">my past yr with u in movies</h2>
-        <p class="mb-10">i like to think of where we are in our relationship whenever we’d watch movies together. spending time with you every night is special and always memorable, and i think it's one of the reasons why we got close agad. watching with you at night is what i will always look forward to at the end of every day</p>
+        <h2 className="text-3xl font-bold mb-3">my past yr with u in movies</h2>
+        <p className="mb-10">i like to think of where we are in our relationship whenever we’d watch movies together. spending time with you every night is special and always memorable, and i think it's one of the reasons why we got close agad. watching with you at night is what i will always look forward to at the end of every day</p>
         {movieMoments.map(moment => (
             <div
-                class="p-5 mb-4 border border-gray-100 rounded-lg bg-gray-5 dark:border-gray-700"
+                className="p-5 mb-4 border border-gray-100 rounded-lg bg-gray-5 dark:border-gray-700"
                 style={{
                     backgroundColor: "var(--color-inverted-primary)",
                     color: "var(--color-inverted-text)"
                 }}
                 key={moment.date}
             >
-                <time class="text-lg font-semibold">{moment.date}</time>
-                <ol class="mt-3 divide-y divider-gray-200 dark:divide-gray-700">
-                    {moment.movies.map(movie => (
-                        <li>
-                            <div class="items-start block px-3 py-7 sm:flex">
+                <time className="text-lg font-semibold">{moment.date}</time>
+                <ol className="mt-3 divide-y divider-gray-200 dark:divide-gray-700">
+                    {moment.movies.map((movie, index) => (
+                        <li key={index}>
+                            <div className="items-start block px-3 py-7 sm:flex">
                                 {movie.title === 'the hunger games' ? 
                                     <img
-                                        class="mb-3 sm:mb-0 me-5 object-cover"
+                                        className="mb-3 sm:mb-0 me-5 object-cover"
                                         src={posterDictionary[movie.title].src} alt={`${movie.title} poster`}
                                         style={{ width: "64px !important" }}
                                         onClick={fireConfetti} data-modal-target="clue-1" data-modal-toggle="clue-1"
                                     />
                                     :
                                      <img
-                                        class="mb-3 sm:mb-0 me-5 object-cover"
+                                        className="mb-3 sm:mb-0 me-5 object-cover"
                                         src={posterDictionary[movie.title].src} alt={`${movie.title} poster`}
                                         style={{ width: "64px !important" }}
                                     />
                                 }
                                 <div>
-                                    <div class="font-bold">{movie.title}</div>
-                                    <div class="text-sm font-normal">{movie.message}</div>
+                                    <div className="font-bold">{movie.title}</div>
+                                    <div className="text-sm font-normal">{movie.message}</div>
                                 </div>
                             </div>
                         </li>

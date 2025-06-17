@@ -5,7 +5,7 @@ import { fireConfetti } from '~/helpers/confetti-service';
 const ScavengerHunt = () => {
   return (
    <section>
-        <h2 class="text-3xl font-bold mb-3 mt-[75px]">mini website scavenger hunt</h2>
+        <h2 className="text-3xl font-bold mb-3 mt-[75px]">mini website scavenger hunt</h2>
         <p>welcome birthday explorer 🕵🏻‍♀️</p>
 
         <br />
@@ -25,7 +25,7 @@ const ScavengerHunt = () => {
 
         <br />
 
-        <blockquote class="italic text-gray-500">
+        <blockquote className="italic text-gray-500">
            "They watch, we fight, a deadly show. One girl sparks a rebel glow. Cameras roll, the crowd obeys — While power feasts on twisted games."
         </blockquote>
         <br />
@@ -34,7 +34,7 @@ const ScavengerHunt = () => {
 
         <ClueModal client:load index={4} isSample={true} />
         {clues.map((clue, index) => (
-            <ClueModal client:load clue={clue} index={index} />
+            <ClueModal client:load clue={clue} index={index} key={index} />
         ))}
    </section>
   )

@@ -2,7 +2,9 @@ const messages: any[] = [
     {
         imageUrl: 'https://flowbite.s3.amazonaws.com/docs/gallery/masonry/image.jpg',
         emotion: 'ure feeling nostalgic',
-        message: 'nostalgic',
+        message: `
+from our first few times talking palang, i could already tell how smart you are. to me the position you're in right now is cos of unfortunate events but it doesn't mean you're not smart / not good at anything. the thought that you're not smart enough to pursue med / careers you really want never even crossed my mind cos i've thought really highly about you from the start palang. there's nothing i'd wish to change about you and if there's anything i could wish it's for you to see yourself through my eyes. i'm really soso proud you're my gf to the point where i'd wanna see my parents / relatives just to show off how lucky i am with you. i just always want you to remember that there's always someone who believes in you more than anything & anyone
+`,
         pokemon: 'cubone'
     },
     {

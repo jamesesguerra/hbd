@@ -13,6 +13,7 @@ import jiggly from "../../assets/jiggly.png";
 import kyogre from "../../assets/kyogre.png";
 import squirtle from "../../assets/squirtle.png";
 import kyogre2 from "../../assets/kyogre2.png";
+import { TextGenerateEffect } from './TextGenerateEffect';
 
 const pokemonDictionary = {
     "cubone": cubone,
@@ -135,7 +136,7 @@ const Masonry = () => {
                         </button>
                     </div>
                     <div className="p-4 md:p-5 space-y-4">
-                        { message }
+                        <TextGenerateEffect words={message} />
                     </div>
                 </div>
             </div>

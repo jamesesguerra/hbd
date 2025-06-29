@@ -43,22 +43,26 @@ export default function PokemonEventPics() {
     }
   ];
   return (
-    <DraggableCardContainer className="relative flex min-h-screen w-full items-center justify-center overflow-clip border border-solid bg-gray-100">
-      <p className="absolute top-1/2 mx-auto max-w-sm -translate-y-3/4 text-center text-2xl font-black text-neutral-400 md:text-4xl dark:text-neutral-800 font-chewy">
-        some text here
-      </p>
-      {items.map((item, index) => (
-        <DraggableCardBody className={item.className} key={index}>
-          <img
-            src={eventPicDictionary[item.image]?.src}
-            alt={item.title}
-            className="pointer-events-none relative z-10 h-80 w-80 object-cover"
-          />
-          <h3 className="mt-4 text-center text-2xl text-neutral-700 font-retro">
-            {item.title}
-          </h3>
-        </DraggableCardBody>
-      ))}
-    </DraggableCardContainer>
+    <>
+      <p className="pb-5">because this is the year na we got addicted to buying pokemon cards and pokemon in general, i thought it would be nice to add our pokemon event pics to memorialize this time in my life with u. i always feel so proud walking around events with u cos ure so pretty 🥰 and it makes me feel like i won in life</p>
+      <DraggableCardContainer className="relative flex min-h-screen w-full items-center justify-center overflow-clip border border-solid bg-gray-100">
+        <p className="absolute top-1/2 mx-auto max-w-sm -translate-y-3/4 text-center text-2xl font-black text-neutral-400 md:text-4xl dark:text-neutral-800 font-chewy">
+          some text here
+        </p>
+        {items.map((item, index) => (
+          <DraggableCardBody className={item.className} key={index}>
+            <img
+              src={eventPicDictionary[item.image]?.src}
+              alt={item.title}
+              className="pointer-events-none relative z-10 h-80 w-80 object-cover"
+            />
+            <h3 className="mt-4 text-center text-2xl text-neutral-700 font-retro">
+              {item.title}
+            </h3>
+          </DraggableCardBody>
+        ))}
+      </DraggableCardContainer>
+    
+    </>
   );
 }

@@ -24,7 +24,7 @@ const Intro = () => {
 
         <br />
         <p>thank you baby for everything you do for me and for us. there's no one else i'd rather be in this with than you. i love you more each day and i'll love you forever mahal</p>
-        <motion.div
+        {/* <motion.div
             className="boxx"
             initial={{ x: -300 }}
             whileInView={{ x: 1800 }}
@@ -32,7 +32,7 @@ const Intro = () => {
             viewport={{ once: true }}
         >
             <img src={esguerra.src} alt="" />
-        </motion.div>
+        </motion.div> */}
     </div>
   )
 }

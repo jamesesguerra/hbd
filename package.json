@@ -33,6 +33,7 @@
     "axios": "^1.7.2",
     "canvas-confetti": "^1.9.3",
     "clsx": "^2.1.1",
+    "emailjs-com": "^3.2.0",
     "framer-motion": "^11.2.3",
     "micromodal": "^0.4.10",
     "motion": "^12.18.1",

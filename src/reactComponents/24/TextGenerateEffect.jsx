@@ -1,11 +1,8 @@
-"use client";
 import { useEffect } from "react";
 import { motion, stagger, useAnimate } from "motion/react";
-import { cn } from "~/lib/utils";
 
 export const TextGenerateEffect = ({
   words,
-  className,
   filter = true,
   duration = 0.5,
 }) => {
@@ -46,7 +43,7 @@ export const TextGenerateEffect = ({
   };
 
   return (
-    <div className={className}>
+    <div>
       <div className="mt-4">
         <div className=" text-black leading-snug text-sm font-light tracking-wide font-indie">
           {renderWords()}

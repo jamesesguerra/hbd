@@ -12,7 +12,7 @@ const ScavengerHunt = () => {
 
         <p>
           hidden across this website are five riddles -- each hiding a secret clue. when you think you've found an answer, look closely... some words or elements can be clicked to reveal the next clue.
-          but i wont add make the cursor a pointer to indicate that it's clickable 😀. for example, click <b onClick={fireConfetti} data-modal-target="clue-5" data-modal-toggle="clue-5">me</b>
+          but i wont make the cursor a pointer to indicate that it's clickable 😀. for example, click <b onClick={fireConfetti} data-modal-target="clue-5" data-modal-toggle="clue-5">me</b>
         </p>
 
         <br />

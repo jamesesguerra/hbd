@@ -11,54 +11,54 @@ const messages: any[] = [
     },
     {
         emotion: 'u feel like u cant wait for our wedding',
-        message: 'cant wait for our wedding',
+        message: "hi my wifey, sorry baby i know waiting can feel long sometimes, i also cant wait. i often catch myself daydreaming about how fun life would be if we lived together na. i always look forward to waking up next to you, the shared routines, going out to eat whenever we feel like it, playing games / watching movies before bed, and of course getting to kiss you goodnight in real life instead of through the phone. but until then, please bare with me cos its almost naman na, and i want you to know ill always try my best to take you out. but i also want you to know that all this time we've been waiting isnt for nothing din, i think the life we’re building already started the day we met. cos i've learned so much from you and i continue to wanna be a better person every day cos of you, and i dont think i would be the husband you deserve if not for all this time we've spent together. so i just want to you to think of this time as just being better for each other and preparing so that when the day comes, we'll be the best version of ourselves. and when it finally does, i promise to love you even more than i already do now, for the rest of our lives",
         pokemon: 'oshawott'
     },
 
     {
         emotion: 'u had a bad day',
-        message: 'stressed',
+        message: "hi mahal, sorry you're feeling stressed. i hope you can talk to me about whatever it is, but if not, i wanna at least be in call with you even if we dont say anything. i know it can feel like a lot at once, but i want you to remember that everything will always pass. whatever situation you're in, you wont be in na in the next hour, day, or week. and you're never alone baby, whatever situation you're in, you're in it with me. we'll be ok and we'll always have our weekly bonding at your house to help you feel better. but most of all, we'll always have each other and the rest of our lives once we're married na to figure things out together in real life, and thats what i always look forward to when im stressed, and i hope it can help you also. we can spend time together at home, or go out and watch a movie, or just walk in a mall and go shopping to get your mind off things. no matter how heavy it is, we'll get through it together like we always do",
         pokemon: 'psyduck'
     },
     {
         emotion: 'ure pissed',
-        message: "hi love. sorry you're feeling this way. i know there are times that one thing can ruin your whole day agad, and you're probably really pissed right now. whatever it is, i hope you can let me be there for you to try and cheer you up. i'll always try my best to make you feel a little lighter. if its about your family again, i'm sorry baby :( as much as i want to get you away from there na, theres just not much we can do yet. but i hope you can just look forward to the time na we can live together na and make decisions for ourselves, cos its near naman na. thats just what i always think of. if its something else, i hope this: [https://www.tiktok.com/@pubity/video/7497580354509753622] can cheer you up. but if not, then that's okay too. you don't need to move on from it agad, sometimes just getting through the day is already enough. i just want you to remember that no matter how badtrip you are, your feelings will never be a burden to me, and i'll alw wanna be here for you",
+        message: "hi love. sorry you're feeling this way. i know there are times that one thing can ruin your whole day agad, and you're probably really pissed right now. whatever it is, i hope you can let me be there for you to try and cheer you up. i'll always try my best to make you feel a little lighter. if its about your family again, i'm sorry baby :( as much as i want to get you away from there na, theres just not much we can do yet. but i hope you can just look forward to the time na we can live together na and make decisions for ourselves, cos its near naman na. thats just what i always think of. if its something else, i hope this: [https://www.tiktok.com/@pubity/video/7497580354509753622] can cheer you up. but if not, then that's okay too. you don't need to move on from it agad, sometimes just getting through the day is already enough. i just want you to remember that no matter how badtrip you are, your feelings will never be a burden to me, and i'll always wanna be here for you",
         pokemon: 'flareon'
     },
     {
         emotion: 'we\'re arguing',
-        message: 'arguing',
+        message: "hi baby, first off i just wanna say sorry for whatever we’re arguing about. especially if its something stupid i said again. throughout the time na wev'e been together i've learned to really think about what im about to say before saying it, and i think i've improved a lot already. but im sorry if i slipped up again, and i don't have any excuse for it. if u can, please allow me to fix and learn from it again, cos theres really nothing i wouldn't fix about myself for you. if it's something else, i hope we can understand where each of us is coming from. i don't think its bad to argue sometimes cos its an opportunity to learn from one another, and an opportunity to maybe change / improve something about ourselves. us being partners and soulmates doesn't mean that we'll never disagree naman, think it just means we're committed enough to be honest and speak up, knowing that whatever we’ll say wont break us apart. i just want us to always remember that we’re on the same team and we care enough to fight for each other and not against each other. so even if we disagree sometimes, or my words dont come out right, please remember that i love and care about you more than anything / anyone else, and i'll continue to choose to fix things no matter what it is",
         pokemon: 'maushold'
     },
     {
         emotion: 'ure feeling soft',
-        message: 'soft',
-        pokemon: 'mew'
+        message: "hi babe, i wish we could stay here forever so i could tell you sweet things. i wish i could show you how i see you, the way your eyes turn into crescents and your teeth show when you smile makes my heart ache in ways i cant explain. or the way you go quiet when you're thinking, with little “hmms” slipping out like you're speaking to your own thoughts. i wish you could see how perfect you are in my eyes, even when you're tired, even when you're doubting yourself and feel insecure. you're still the one thing in my life that feels sure. like no matter how messy the world gets or how much bad news there is on tv, i could look at you and feel safe again. and sometimes when i look at you, it actually hurts, but not in a bad way. just in a way that my chest gets tight because it feels like i love something too much to hold all at once. i wish we could always stay in this moment, just the two of us, no noise, just this quiet kind of closeness, the kind we have when we're in the car, so i get to love you forever, the way you deserve to be loved. and one day, i hope to show you why i keep falling over and over again. and when that day comes i hope your insecurities go quiet finally go quiet because all you'll feel is love. i'll spend every day proving to you why you're amazing, until loving yourself feels just as natural as it does to me",
+        pokemon: "mew"
     },
     {
         emotion: 'ure hungry',
-        message: 'hungry',
+        message: "hi my hungry monchichi, please let me know that you're hungry cos i promise to always padala food. i love feeding you your fave food and making tummy happy. just know that i'd always give you the brookies with more oreo, the balat of my chicken, or the bigger hati of bff fries. seeing you doing your happy dance while eating is one of my fave things and its like my reward for feeding you. you deserve all the yummy things in life baby",
         pokemon: 'munchlax'
     },
     {
         emotion: 'u need reassurance',
-        message: 'reassurance',
+        message: "hi my one and only, sorry i know your thoughts wander a lot and make you overthink things, but i need you to know that it's you mahal, it's really always been you. no one else even comes close to you, you're above everyone else i've ever met, and its not close. no one can match the way you are, the way you make me feel, the way you treat me - you're everything i've ever wanted and so much more. i know you overthink a lot about my exes, sorry baby. just know that una palang you were already above both of them combined. you might overthink about the stuff i did for them, but i swear its really nothing compared to how much effort i put when it comes to you. you might not see it, but you light up my life in so many ways. you're the reason i smile and dream more, and feel hopeful about the future. you make me the best version of myself, something my exes could never do. and of course the difference sa looks is just night and day babs 😀, and that applies to any other girl also. i dont care about their bodies, ill always just be obsessed with yours, no matter how it looks. you're all i think about, you're the only friend i need, and you'll forever be my #1, no #2 or #3, just you my bab",
         pokemon: 'piplup'
     },
     {
+        message: "hi baby, sorry if you're having trouble sleeping🥲 i know you have your asmr to help, so ill just try to keep you company while you try to fall asleep, as if we were in call. did i ever tell you about the time na i kept leaving my school bag everywhere. as in there were times na i'd leave it at home and go to school without my bag😀 then i'd end up having to share books with my friends. and there were also times that i'd leave it in school. i even left my lunch box at school over the summer, and when i opened it the next school year so many flies came out and it smelled so bad😀 but you're probably not surprised considering i left your house one time without my phone. sorry baby, it's a bad habit but i think i've improved a lot already. that's all baby, please try sleeping na. i'll cuddle and kiss goodnight, mwaa. i love you so much😽",
         emotion: 'u cant sleep',
-        message: 'you cant sleep',
         pokemon: 'jiggly'
     },
     {
         emotion: 'u miss me',
-        message: 'you miss me',
+        message: "hi honey, i just want you to know that i'm missing you just as much. it sucks not being able to be next to you always, so i can kiss and hold you. but even if we're not together physically, just know i'm still with you, in other small ways. in the way that you smile at your phone when you see your wallpaper of us, in your favorite food that reminds you of when we'd eat it together, in the toys that we've bonded over. you'll always carry pieces of me just like i'll always be carrying pieces of you. so i hope you can feel it when you're just lying and missing me. maybe it's in the way that you suddenly realize just how much you needed the socks you're wearing, that's me slipping them on for you. or the way your pillow feels just the right amount of coldness when you flip it, that's me making it just right for you. so you don't have to look far to find me. i'm in the small mannerisms we've picked up from each other, words like 'bagtit' you might start using with other people, those moments in movies / shows we laughed at together that suddenly pop into your head, and the moments wherein you randomly smile for no reason, that's me. i'll always be with you mahal, even in ways you can't feel / see. i love you so much",
         pokemon: 'kyogre'
     },
     {
-        emotion: 'u need motivation at work (sorry🥲)',
-        message: 'need motivation',
-        pokemon: 'squirtle'
+        emotion: 'ure in an emergency situation',
+        message: "hi babby, i always wanna keep you safe and protect you from anything. but in case you ever find yourself in a scary situation (knock on wood), you can click minccino. it'll send me an email of your address from google maps (which is more accurate than Find My), your battery %, IP address, and other useful stuff, and you sent me one just now. it might seem kinda useless when you can just text me, but i think having a discreet way to reach me and tell me something's wrong quickly without having to pull up your keyboard, makes me feel better. i'll always come running",
+        pokemon: 'minccino'
     },
     
 ];

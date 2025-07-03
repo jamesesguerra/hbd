@@ -33,7 +33,7 @@ const Dollar = ({ isPrizeVisible }) => {
               </button>
               )}
               { showMessage && (
-                <span className="text-center max-w-[40rem] block bg-slate-50 p-5 rounded-xl mt-5 shadow-2xl text-sm">yay congrats baby 🥳 <br /> here's your prize: 2,500 bimbys big bucks — that's equivalent to ₱2,500. you can use this to buy your cariño top tomorrow, but it's up to you baby, just let me know when u wanna use it na</span>
+                <span className="text-center max-w-[40rem] block bg-slate-50 p-5 rounded-xl mt-5 shadow-2xl text-sm">yay congrats baby 🥳 <br /> here's your prize: 2,500 bimbys big bucks — that's equivalent to ₱2,500. you can use this to buy your cariño top tomorrow, but it's up to you baby, just let me know when u wanna use it na. pick you up at 10 baby</span>
               )}
             </div>
           </motion.div>
